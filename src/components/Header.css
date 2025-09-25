@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fefcec;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem; /* Muy pequeño para que queden pegados */
+}
+
+.logo-img {
+  width: 50px;
+  height: auto;
+  display: block;
+}
+
+.logo-text {
+  margin-left: 1rem;      /* Quita margen */
+  color: #02522b;
+  font-size: 3rem;
+}
+
+.nav a {
+  color: #02522b;
+}

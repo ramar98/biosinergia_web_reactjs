@@ -1,0 +1,185 @@
+/* --- Sección general --- */
+.about-section {
+  position: relative;
+  width: 100%; /* Ocupa todo el ancho */
+  min-height: 100vh; /* Pantalla completa */
+  background: linear-gradient(to bottom, #e9f9ef, #ffffff);
+  padding: 80px 40px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  scroll-margin-top: 6rem;
+}
+
+/* Contenedor principal con dos columnas */
+.about-container {
+  width: 100%;
+  max-width: 1400px; /* Limita el ancho máximo en pantallas grandes */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* --- Texto --- */
+.about-text {
+  width: 100%;
+}
+
+.about-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2f6b3c;
+  margin-bottom: 20px;
+}
+
+.about-text h2 span {
+  color: #41a758;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-text .highlight {
+  font-weight: bold;
+  color: #41a758;
+}
+
+/* --- Iconos --- */
+.about-icons {
+  display: flex;
+  gap: 40px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.1rem;
+  color: #2f6b3c;
+  font-weight: 500;
+}
+
+.icon-item img {
+  width: 32px;
+  height: 32px;
+}
+
+/* --- Imagen --- */
+.about-image {
+  text-align: center;
+  width: 100%;
+}
+
+.about-image img {
+  width: 90%;
+  max-width: 450px;
+  border-radius: 20px;
+  border: 3px solid #dff0e1;
+  box-shadow: 0 10px 25px rgba(65, 167, 88, 0.3);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* --- Animación fade in --- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* --- Burbujas decorativas --- */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.4;
+  animation: pulse 6s infinite ease-in-out;
+  z-index: 0;
+}
+
+.bubble1 {
+  width: 180px;
+  height: 180px;
+  background: #a4f3bc;
+  top: 10%;
+  left: 8%;
+}
+
+.bubble2 {
+  width: 220px;
+  height: 220px;
+  background: #c0f7d2;
+  bottom: 12%;
+  right: 8%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* --- RESPONSIVE --- */
+
+/* Tablets y pantallas medianas */
+@media (max-width: 992px) {
+  .about-container {
+    grid-template-columns: 1fr; /* Una sola columna */
+    text-align: center;
+    gap: 40px;
+  }
+
+  .about-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .about-icons {
+    justify-content: center;
+  }
+
+  .about-image img {
+    width: 75%;
+    max-width: 400px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 576px) {
+  .about-section {
+    padding: 60px 20px;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+  }
+
+  .icon-item span {
+    font-size: 0.9rem;
+  }
+}
