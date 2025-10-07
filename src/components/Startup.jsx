@@ -1,14 +1,40 @@
-import React from 'react';
+import React from "react";
+import "./Startup.css";
 
 function Startup() {
   return (
-    <section id="startup">
-      <h2>La Startup</h2>
-      <p>
-        Biosinergia desarrolla soluciones integrales que incluyen dispositivos inteligentes y aplicaciones móviles
-        para el monitoreo en tiempo real de plantas. Nuestra tecnología ayuda a hogares y grandes agricultores
-        a comprender y satisfacer las necesidades de sus cultivos de manera automatizada.
-      </p>
+    <section id="startup" className="startup-section">
+      <div className="startup-container">
+        {/* --- IMAGEN --- */}
+        <div className="startup-image">
+          <img src="/startup_tech.jpg" alt="Tecnología Biosinergia" />
+        </div>
+
+        {/* --- TEXTO --- */}
+        <div className="startup-text">
+          <h2>
+            La <span>Startup</span>
+          </h2>
+          <p>
+            <strong>Biosinergia</strong> impulsa una nueva era en la agricultura,
+            donde la tecnología y la biología trabajan en armonía. 
+          </p>
+          <p>
+            Desarrollamos <span className="highlight">dispositivos inteligentes</span> 
+            y aplicaciones móviles que permiten monitorear y responder en tiempo real 
+            a las necesidades de las plantas, automatizando procesos como el riego y 
+            la nutrición.
+          </p>
+          <p>
+            Nuestro objetivo es crear sistemas que aprendan del entorno, optimicen 
+            los recursos y construyan un futuro agrícola más sostenible.
+          </p>
+        </div>
+      </div>
+
+      {/* --- ELEMENTOS DECORATIVOS --- */}
+      <div className="circuit circuit1"></div>
+      <div className="circuit circuit2"></div>
     </section>
   );
 }

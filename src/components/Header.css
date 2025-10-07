@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #fefcec;
+  padding: 0.7rem 2rem;
+  background-color: #e1ffb7;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -24,9 +24,10 @@
 .logo-text {
   margin-left: 1rem;      /* Quita margen */
   color: #02522b;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .nav a {
   color: #02522b;
+  font-size: 1.2rem;
 }

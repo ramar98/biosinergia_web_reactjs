@@ -1,11 +1,40 @@
-import React from 'react';
+import React from "react";
+import "./Contact.css";
 
 function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="contact-section">
       <h2>Contacto</h2>
-      <p>Email: contacto@biosinergia.com</p>
-      <p>Teléfono: +54 9 11 1234 5678</p>
+      <p className="contact-intro">
+        ¿Querés saber más sobre <strong>BioSinergia</strong> o colaborar con nosotros?
+        Completá el formulario o comunicate por nuestros medios directos.
+      </p>
+
+      <div className="contact-container">
+        {/* Información de contacto */}
+        <div className="contact-info">
+          <div className="contact-item">
+            <img src="/icon_email.png" alt="Email" />
+            <p>contacto@biosinergia.com</p>
+          </div>
+          <div className="contact-item">
+            <img src="/icon_phone.png" alt="Teléfono" />
+            <p>+54 9 11 1234 5678</p>
+          </div>
+          <div className="contact-item">
+            <img src="/icon_location.png" alt="Ubicación" />
+            <p>Buenos Aires, Argentina</p>
+          </div>
+        </div>
+
+        {/* Formulario de contacto */}
+        <form className="contact-form">
+          <input type="text" placeholder="Nombre" required />
+          <input type="email" placeholder="Correo electrónico" required />
+          <textarea placeholder="Mensaje" rows="4" required></textarea>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </div>
     </section>
   );
 }

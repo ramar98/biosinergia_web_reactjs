@@ -1,0 +1,103 @@
+.startup-section {
+  position: relative;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #1b4332, #081c15);
+  color: #ecf8f2;
+  overflow: hidden;
+}
+
+.startup-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  gap: 3rem;
+}
+
+.startup-image {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.startup-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.startup-image img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
+}
+
+.startup-text {
+  flex: 1;
+  min-width: 300px;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.startup-text h2 {
+  font-size: 2.5rem;
+  color: #b7e4c7;
+  margin-bottom: 1rem;
+}
+
+.startup-text h2 span {
+  color: #95d5b2;
+}
+
+.startup-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #d8f3dc;
+  margin-bottom: 1.2rem;
+}
+
+.highlight {
+  color: #74c69d;
+  font-weight: bold;
+}
+
+/* --- Decoraciones tipo circuitos --- */
+.circuit {
+  position: absolute;
+  border: 1px solid rgba(147, 255, 182, 0.3);
+  border-radius: 50%;
+  animation: pulse 6s infinite ease-in-out;
+}
+
+.circuit1 {
+  width: 180px;
+  height: 180px;
+  top: 8%;
+  left: 5%;
+}
+
+.circuit2 {
+  width: 250px;
+  height: 250px;
+  bottom: 10%;
+  right: 8%;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.1); }
+}
+
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}

@@ -14,7 +14,7 @@ function About() {
           <p>
             En <strong>BioSinergia</strong>, fusionamos tecnología y naturaleza
             para transformar la forma en que cultivamos. Nuestro equipo desarrolla
-            soluciones innovadoras que permiten monitorear en{" "}
+            soluciones inteligentes que permiten monitorear en{" "}
             <span className="highlight">tiempo real</span> la salud de las plantas,
             optimizando el uso de agua y nutrientes para lograr cultivos más
             saludables y sostenibles.
@@ -40,10 +40,7 @@ function About() {
 
         {/* --- IMAGEN --- */}
         <div className="about-image">
-          <img
-            src="/modulo2.jpg"
-            alt="Tecnología agrícola"
-          />
+          <img src="/modulo2.jpg" alt="Tecnología agrícola" />
         </div>
       </div>
 
