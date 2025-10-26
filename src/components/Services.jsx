@@ -17,7 +17,7 @@ function Services() {
 
         <div className="services-grid">
           <div className="service-card">
-            <img src="/icon_sensor.png" alt="Monitoreo" />
+            <img src="/monitoreo.png" alt="Monitoreo" />
             <h3>Monitoreo en tiempo real</h3>
             <p>
               Sensores inteligentes que registran la humedad, temperatura y CO₂
@@ -26,7 +26,7 @@ function Services() {
           </div>
 
           <div className="service-card">
-            <img src="/icon_riego.png" alt="Automatización" />
+            <img src="/automatizacion.png" alt="Automatización" />
             <h3>Automatización de riego</h3>
             <p>
               Sistemas automatizados que ajustan el riego y fertilización de forma
@@ -35,7 +35,7 @@ function Services() {
           </div>
 
           <div className="service-card">
-            <img src="/icon_leaf.png" alt="Sostenibilidad" />
+            <img src="/sostenibilidad.png" alt="Sostenibilidad" />
             <h3>Agricultura sostenible</h3>
             <p>
               Asesoramiento y acompañamiento para implementar prácticas agrícolas

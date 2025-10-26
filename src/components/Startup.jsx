@@ -1,4 +1,3 @@
-import React from "react";
 import "./Startup.css";
 
 function Startup() {
@@ -7,7 +6,7 @@ function Startup() {
       <div className="startup-container">
         {/* --- IMAGEN --- */}
         <div className="startup-image">
-          <img src="/startup_tech.jpg" alt="Tecnología Biosinergia" />
+          <img src="/cultivos_exterior.png" alt="Tecnología Biosinergia" />
         </div>
 
         {/* --- TEXTO --- */}

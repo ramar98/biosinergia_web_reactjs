@@ -15,14 +15,16 @@ function Contact() {
         <div className="contact-info">
           <div className="contact-item">
             <img src="/icon_email.png" alt="Email" />
-            <p>contacto@biosinergia.com</p>
+            <p>biosinergia@gmail.com</p>
           </div>
           <div className="contact-item">
             <img src="/icon_phone.png" alt="Teléfono" />
-            <p>+54 9 11 1234 5678</p>
+            <p>+54 9 3858687316</p>
+            <p>+54 9 3814012526</p> 
           </div>
           <div className="contact-item">
             <img src="/icon_location.png" alt="Ubicación" />
+            <p>Tucumán, Argentina</p>
             <p>Buenos Aires, Argentina</p>
           </div>
         </div>

@@ -11,29 +11,30 @@ function Team() {
 
       <div className="team-container">
         <div className="team-member">
-          <img src="/ramiro.jpg" alt="Ramiro Agustín Rodríguez" />
+          <img src="/ramiro.png" alt="Ramiro Agustín Rodríguez" />
           <h3>Ramiro Agustín Rodríguez</h3>
-          <p className="role">Desarrollo de Software</p>
+          <p className="role">CTO | Arquitectura tecnológica</p>
           <p>
-            Especialista en ingeniería de software y desarrollo de aplicaciones móviles y web. Lidera la arquitectura tecnológica de la plataforma de Biosinergia.
+            Cofundador de BioSinergia. Ingeniero en Sistemas de Información y Diplomado en Inovación Abierta. Lidero la arquitectura tecnológica y el desarrollo de software que da vida a nuestra plataforma. Mi objetivo es transformar la visión agronómica y la innovación en hardware en una solución digital intuitiva, robusta y escalable para la automatización de cultivos.
           </p>
         </div>
 
         <div className="team-member">
-          <img src="/hector.jpg" alt="Héctor Miguel Fadel" />
+          <img src="/miguel.jpg" alt="Héctor Miguel Fadel" />
           <h3>Héctor Miguel Fadel</h3>
-          <p className="role">Desarrollo de Hardware</p>
+          <p className="role">CEO | Estrategia y Hardware IoT</p>
           <p>
-            Ingeniero electrónico con amplia experiencia en microcontroladores y sistemas embebidos. Diseña los módulos inteligentes que hacen posible la automatización del cultivo.
+            Cofundador de BioSinergia. Técnico Universitario en Electrónica con formación en gestión e innovación (Diplomatura en Innovación Abierta, programas de negocios y NAVES Banco Macro). Lidero la hoja de ruta y el hardware para sensórica y riego inteligente, enfocándome en ahorro de agua y energía.
           </p>
         </div>
 
         <div className="team-member">
-          <img src="/agostina.jpg" alt="Agostina Guerrero" />
+          <img src="/agostina.png" alt="Agostina Guerrero" />
           <h3>Agostina Guerrero</h3>
-          <p className="role">Ingeniera Agrónoma</p>
+          <p className="role">CSO | Investigación y Desarrollo</p>
           <p>
-            Experta en fisiología vegetal y sostenibilidad agrícola. Su conocimiento permite adaptar la tecnología de Biosinergia a las necesidades reales de las plantas.
+            Ing. Agrónoma Agostina Daniela Guerrero
+            Diplomada en Vitivinicultura y Enología. Lidero el área de Investigación y Desarrollo, enfocada en el diseño y validación de soluciones tecnológicas para optimizar el rendimiento y la sostenibilidad de los cultivos.
           </p>
         </div>
       </div>
