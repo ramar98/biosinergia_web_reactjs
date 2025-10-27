@@ -28,14 +28,11 @@ function Footer() {
         <div className="footer-right">
           <h4>Seguinos</h4>
           <div className="social-icons">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="/icon_instagram.png" alt="Instagram" />
+            <a href="https://www.instagram.com/biosinergia.ar/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer">
+              <img src="instagram.png" alt="Instagram" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <img src="/icon_linkedin.png" alt="LinkedIn" />
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <img src="/icon_github.png" alt="GitHub" />
+            <a href="https://www.linkedin.com/in/biosinergia-ar-068855384" target="_blank" rel="noopener noreferrer">
+              <img src="linkedin.png" alt="LinkedIn" />
             </a>
           </div>
         </div>

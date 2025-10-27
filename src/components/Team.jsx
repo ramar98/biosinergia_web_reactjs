@@ -20,7 +20,7 @@ function Team() {
         </div>
 
         <div className="team-member">
-          <img src="/miguel.jpg" alt="Héctor Miguel Fadel" />
+          <img src="/miguel.png" alt="Héctor Miguel Fadel" />
           <h3>Héctor Miguel Fadel</h3>
           <p className="role">CEO | Estrategia y Hardware IoT</p>
           <p>
